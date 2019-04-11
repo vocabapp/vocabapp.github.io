@@ -4,19 +4,15 @@ body {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
 }
+nav {
+    margin: 0 0;
+}
 section {
     border-style: solid;
     border-width: 1px;
     border-color: #AAAAAA;
     border-radius: 10px;
-    margin-left: 20vw;
-    margin-right: 20vw;
-    margin-top: 40px;
-    padding: 5% 7% 3% 7%;
     text-align: justify;
-}
-div {
-    margin-bottom: 40px;
 }
 h1 {
     font-size: 10vw;
@@ -25,14 +21,9 @@ h1 {
     color: #DB4B4F;
 }
 h2 {
-    font-size: 3vw;
     margin-top: 0px;
 }
-h3 {
-    font-size: 1.5vw;
-}
 h4 {
-    font-size: 1vw;
     color: #6F7179;
 }
 p,
@@ -49,6 +40,9 @@ a:visited {
 a:hover {
     color: #AAAAAA;
 }
+.link {
+    text-decoration: underline;
+}
 #index-container {
     position: fixed;
     top: 50%;
@@ -59,4 +53,186 @@ a:hover {
     font-size: 0.75em;
     color: #CDCDCD;
     margin: 2vh 0px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    section {
+        margin-top: 2vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        padding: 0% 3% 0% 3%;
+    }
+    div {
+        margin-bottom: 3vw;
+    }
+    h2 {
+        margin-bottom: 1vw;
+        font-size: 5vw;
+    }
+    h3 {
+        margin-top: 2vw;
+        margin-bottom: 1vw;
+        font-size: 3.5vw;
+    }
+    h4 {
+        margin-top: 2vw;
+        margin-bottom: 0;
+    }
+    p {
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+    ul {
+        margin-top: 1.5vw;
+        padding-left: 6vw;
+    }
+    li {
+        margin-top: 1vw;
+    }
+}  
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    section {
+        margin-top: 2vw;
+        margin-left: 3vw;
+        margin-right: 4vw;
+        padding: 0.5% 4% 1% 4%;
+    }
+    div {
+        margin-bottom: 3vw;
+    }
+    h2 {
+        margin-bottom: 1vw;
+        font-size: 5vw;
+    }
+    h3 {
+        margin-top: 2vw;
+        margin-bottom: 0vw;
+        font-size: 3vw;
+    }
+    h4 {
+        margin-top: 1.5vw;
+        margin-bottom: 0;
+    }
+    p {
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+    ul {
+        margin-top: 1.5vw;
+        padding-left: 5vw;
+    }
+    li {
+        margin-top: 1vw;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    section {
+        margin-top: 2vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        padding: 2% 5% 2% 5%;
+    }
+    div {
+        margin-bottom: 3vw;
+    }
+    h2 {
+        margin-bottom: 1vw;
+        font-size: 4vw;
+    }
+    h3 {
+        margin-top: 2vw;
+        margin-bottom: 0vw;
+        font-size: 2.5vw;
+    }
+    h4 {
+        margin-top: 1.5vw;
+        margin-bottom: 0;
+    }
+    p {
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+    ul {
+        margin-top: 1.5vw;
+        padding-left: 4vw;
+    }
+    li {
+        margin-top: 1vw;
+    }
+} 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    section {
+        margin-top: 2vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        padding: 3% 6% 2% 6%;
+    }
+    h2 {
+        margin-bottom: 1vw;
+        font-size: 4vw;
+    }
+    h3 {
+        margin-top: 2vw;
+        margin-bottom: 0vw;
+        font-size: 2vw;
+    }
+    h4 {
+        margin-top: 1.5vw;
+        margin-bottom: 0;
+    }
+    p {
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+    ul {
+        margin-top: 1.5vw;
+        padding-left: 3vw;
+    }
+    li {
+        margin-top: 1vw;
+    }
+} 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    section {
+        margin-top: 3vw;
+        margin-left: 20vw;
+        margin-right: 20vw;
+        padding: 5% 7% 3% 7%;
+    }
+    div {
+        margin-bottom: 40px;
+    }
+    h2 {
+        margin-bottom: 2vw;
+        font-size: 3vw;
+    }
+    h3 {
+        margin-top: 2vw;
+        margin-bottom: 0vw;
+        font-size: 1.5vw;
+    }
+    h4 {
+        margin-top: 1.5vw;
+        margin-bottom: 0;
+        font-size: 1.2vw;
+    }
+    ul {
+        margin-top: 1.5vw;
+        padding-left: 2.5vw;
+    }
+    p,
+    li {
+        font-size: 1.2vw;
+    }
+    p {
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+    li {
+        margin-top: 1vw;
+    }
 }
