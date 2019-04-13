@@ -43,6 +43,9 @@ a:hover {
 .link {
     text-decoration: underline;
 }
+#redText {
+    color: #DB4B4F;
+}
 #index-container {
     position: fixed;
     top: 50%;
